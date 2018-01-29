@@ -1,0 +1,10 @@
+== Description
+include::presentation.asciidoc[]
+
+'''
+== Settings
+include::configuration.asciidoc[]
+
+'''
+== FAQ
+include::faq.asciidoc[]

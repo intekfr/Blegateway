@@ -1,0 +1,11 @@
+[panel,primary]
+.Stützt sich das Plugin auf APIs Dritter ?
+--
+Non, le plugin récupère la trame émise sur le réseau wifi par les dash buttons sans accès éxtérieur
+--
+
+[panel,primary]
+.Die Konfiguration bleibt bei den NOK Zustand und der Daemon startet nicht.
+--
+Sie benötigen mindestens 1 konfigurierte und aktivierte Dash-Taste, damit die Konfiguration auf "OK" geht und der Daemon startet.
+--
