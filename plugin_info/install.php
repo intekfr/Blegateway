@@ -19,6 +19,7 @@
 require_once dirname(__FILE__) . '/../../../core/php/core.inc.php';
 
 function blegateway_install() {
+    jeedom::getApiKey('blegateway');
 }
 
 function blegateway_update() {
