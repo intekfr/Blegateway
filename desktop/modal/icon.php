@@ -38,7 +38,7 @@ if (!isConnect('admin')) {
                         <label class="col-sm-4 col-xs-6 control-label">{{Envoyer une Icône}}</label>
                         <div class="col-sm-8 col-xs-6">
                             <span class="btn btn-default btn-file">
-                                <i class="fa fa-cloud-upload"></i> {{Envoyer}}<input id="bt_uploadIcon" type="file" name="file" data-url="plugins/dashbutton/core/ajax/dashbutton.ajax.php?action=iconUpload&jeedom_token=<?php echo ajax::getToken(); ?>">
+                                <i class="fa fa-cloud-upload"></i> {{Envoyer}}<input id="bt_uploadIcon" type="file" name="file" data-url="plugins/blegateway/core/ajax/blegateway.ajax.php?action=iconUpload&jeedom_token=<?php echo ajax::getToken(); ?>">
                             </span>
                         </div>
                     </div>
@@ -63,7 +63,7 @@ $("#bt_removeIcon").on('click', function () {
             if (result) {
 				$.ajax({// fonction permettant de faire de l'ajax
 					type: "POST", // methode de transmission des données au fichier php
-					url: "plugins/dashbutton/core/ajax/dashbutton.ajax.php", // url du fichier php
+					url: "plugins/blegateway/core/ajax/blegateway.ajax.php", // url du fichier php
 					data: {
 						action: "removeIcon",
 						icon: $("#sel_item3").value()
@@ -108,7 +108,7 @@ function loadIcon(){
 }
 function updateListIcon() {
     $.ajax({
-        url: "plugins/dashbutton/core/ajax/dashbutton.ajax.php",
+        url: "plugins/blegateway/core/ajax/blegateway.ajax.php",
         dataType: 'json',
         data: {
 			action: "listIcon"

@@ -18,7 +18,7 @@
 if (!isConnect('admin')) {
 	throw new Exception('401 Unauthorized');
 }
-$eqLogics = dashbutton::byType('dashbutton');
+$eqLogics = blegateway::byType('blegateway');
 ?>
 
 <table class="table table-condensed tablesorter" id="table_healthdash">
@@ -39,7 +39,7 @@ foreach ($eqLogics as $eqLogic) {
     if (file_exists($file)) {
 		$path = $eqLogic->getConfiguration('icone');
 	} else {
-		$path = 'plugins/dashbutton/doc/images/dashbutton_icon.png';
+		$path = 'plugins/blegateway/doc/images/blegateway_icon.png';
     }
     $img = '<img src="'.$path.'" height="65" width="55" />';
 	echo '<tr><td>' . $img . '</td><td><a href="' . $eqLogic->getLinkToConfiguration() . '" style="text-decoration: none;">' . $eqLogic->getHumanName(true) . '</a></td>';

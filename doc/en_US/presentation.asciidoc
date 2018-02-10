@@ -1,3 +1,3 @@
-==== Dash Button, Amazon internet orders buttons
+==== BLE Gateway Tag, Amazon internet orders buttons
 
-This plugin allows to use the Dash Button Amazon without placing an order but simply by retrieving their status on the wifi network
+This plugin allows to use the BLE Gateway Tag Amazon without placing an order but simply by retrieving their status on the wifi network

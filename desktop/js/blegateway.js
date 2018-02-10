@@ -15,12 +15,12 @@
  * along with Jeedom. If not, see <http://www.gnu.org/licenses/>.
  */
  $('#bt_healthdash').on('click', function () {
-    $('#md_modal').dialog({title: "{{Santé Dashbutton}}"});
-    $('#md_modal').load('index.php?v=d&plugin=dashbutton&modal=health').dialog('open');
+    $('#md_modal').dialog({title: "{{Santé blegateway}}"});
+    $('#md_modal').load('index.php?v=d&plugin=blegateway&modal=health').dialog('open');
 });
  $('#bt_icondash').on('click', function () {
     $('#md_modal').dialog({title: "{{Gestion Icônes}}"});
-    $('#md_modal').load('index.php?v=d&plugin=dashbutton&modal=icon').dialog('open');
+    $('#md_modal').load('index.php?v=d&plugin=blegateway&modal=icon').dialog('open');
 });
 $("#table_cmd").delegate(".listEquipementInfo", 'click', function() {
     var el = $(this);

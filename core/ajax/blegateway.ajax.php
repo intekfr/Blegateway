@@ -25,11 +25,11 @@ try {
     }
 	
 	if (init('action') == 'removeIcon') {
-		ajax::success(dashbutton::removeIcon(init('icon')));
+		ajax::success(blegateway::removeIcon(init('icon')));
 	}
 	
 	if (init('action') == 'listIcon') {
-		ajax::success(dashbutton::listIcon());
+		ajax::success(blegateway::listIcon());
 	}
 	
 	if (init('action') == 'iconUpload') {

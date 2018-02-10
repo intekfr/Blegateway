@@ -1,19 +1,19 @@
 {
-    "plugins\/dashbutton\/desktop\/php\/dashbutton.php": {
+    "plugins\/blegateway\/desktop\/php\/blegateway.php": {
         "Ajouter un équipement": "Agregar un dispositivo",
         "Rechercher": "Buscar",
         "Gestion": "Gestión",
         "Configuration": "Configuración",
         "Santé": "Salud",
         "Icônes": "Iconos",
-        "Mes Dash Button": "Mis Dash Button",
+        "Mes BLE Gateway Tag": "Mis BLE Gateway Tag",
         "Sauvegarder": "Salvar",
         "Supprimer": "Borrar",
         "Configuration avancée": "Configuración avanzada",
         "Equipement": "Dispositivo",
         "Commandes": "Comandos",
-        "Dashbutton": "Dashbutton",
-        "Nom de l'équipement dashbutton": "Nombre del dispositivo dashbutton ",
+        "blegateway": "blegateway",
+        "Nom de l'équipement blegateway": "Nombre del dispositivo blegateway ",
         "Objet parent": "Objeto padre",
         "Aucun": "Ninguno",
         "Catégorie": "Categoría",
@@ -21,7 +21,7 @@
         "Visible": "Visible",
         "Délai max entre 2 messages": "Retardo max entre 2 mensajes",
         "Commentaire": "Comentario",
-        "MAC Dash Button": "MAC Dash Button",
+        "MAC BLE Gateway Tag": "MAC BLE Gateway Tag",
         "Dernière Activité": "Última actividad",
         "Icône": "Icono",
         "Modèle": "Modelo",
@@ -29,20 +29,20 @@
         "Commande": "Comando",
         "Paramètres": "Parámetros"
     },
-    "plugins\/dashbutton\/desktop\/js\/dashbutton.js": {
-        "Santé Dashbutton": "Salud Dashbutton",
+    "plugins\/blegateway\/desktop\/js\/blegateway.js": {
+        "Santé blegateway": "Salud blegateway",
         "Gestion Icônes": "Gestión de Iconos",
         "Afficher": "Mostrar",
         "Tester": "Prueba"
     },
-    "plugins\/dashbutton\/desktop\/modal\/health.php": {
+    "plugins\/blegateway\/desktop\/modal\/health.php": {
         "Image": "Imagen",
         "Module": "Modulo",
         "ID": "ID",
         "MAC": "MAC",
         "Date création": "Fecha creación"
     },
-    "plugins\/dashbutton\/desktop\/modal\/icon.php": {
+    "plugins\/blegateway\/desktop\/modal\/icon.php": {
         "Icônes locales": "Iconos locales",
         "Icônes disponibles": "Iconos disponibles",
         "Supprimer l'icône": "Borrar Icono",

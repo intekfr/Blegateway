@@ -1,19 +1,19 @@
 {
-    "plugins\/dashbutton\/desktop\/php\/dashbutton.php": {
+    "plugins\/blegateway\/desktop\/php\/blegateway.php": {
         "Ajouter un équipement": "Gerät hinzufügen",
         "Rechercher": "Suchen",
         "Gestion": "Management",
         "Configuration": "Konfiguration",
         "Santé": "Gesundheit",
         "Icônes": "Symbol",
-        "Mes Dash Button": "Mein Dash Button",
+        "Mes BLE Gateway Tag": "Mein BLE Gateway Tag",
         "Sauvegarder": "Speichern",
         "Supprimer": "Löschen",
         "Configuration avancée": "Erweiterte Konfiguration",
         "Equipement": "Gerät",
         "Commandes": "Befehle",
-        "Dashbutton": "Dash Button",
-        "Nom de l'équipement dashbutton": "Dash Button Gerätename",
+        "blegateway": "BLE Gateway Tag",
+        "Nom de l'équipement blegateway": "BLE Gateway Tag Gerätename",
         "Objet parent": "Elternobjekt",
         "Aucun": "Keine",
         "Catégorie": "Kategorie",
@@ -21,7 +21,7 @@
         "Visible": "Sichtbar",
         "Délai max entre 2 messages": "Maximale Zeit zwischen 2 Nachrichten",
         "Commentaire": "Kommentar",
-        "MAC Dash Button": "Dash Button MAC",
+        "MAC BLE Gateway Tag": "BLE Gateway Tag MAC",
         "Dernière Activité": "Letzte Aktivität",
         "Icône": "Symbol",
         "Modèle": "Modell",
@@ -29,20 +29,20 @@
         "Commande": "Befehl",
         "Paramètres": "Parameter"
     },
-    "plugins\/dashbutton\/desktop\/js\/dashbutton.js": {
-        "Santé Dashbutton": "Dash Button Gesundheit",
+    "plugins\/blegateway\/desktop\/js\/blegateway.js": {
+        "Santé blegateway": "BLE Gateway Tag Gesundheit",
         "Gestion Icônes": "Symbol Verwaltung",
         "Afficher": "Anzeigen",
         "Tester": "Testen"
     },
-    "plugins\/dashbutton\/desktop\/modal\/health.php": {
+    "plugins\/blegateway\/desktop\/modal\/health.php": {
         "Image": "Bild",
         "Module": "Modul",
         "ID": "ID",
         "MAC": "MAC",
         "Date création": "Erstellungsdatum"
     },
-    "plugins\/dashbutton\/desktop\/modal\/icon.php": {
+    "plugins\/blegateway\/desktop\/modal\/icon.php": {
         "Icônes locales": "Lokale Symbole",
         "Icônes disponibles": "Verfügbare Symbole",
         "Supprimer l'icône": "Symbol löschen",

@@ -3,8 +3,8 @@
 if (!isConnect('admin')) {
   throw new Exception('{{401 - Accès non autorisé}}');
 }
-sendVarToJS('eqType', 'dashbutton');
-$eqLogics = eqLogic::byType('dashbutton');
+sendVarToJS('eqType', 'blegateway');
+$eqLogics = eqLogic::byType('blegateway');
 
 ?>
 
@@ -54,7 +54,7 @@ $eqLogics = eqLogic::byType('dashbutton');
     </div>
 
 
-    <legend><i class="fa fa-table"></i>  {{Mes Dash Button}} </legend>
+    <legend><i class="fa fa-table"></i>  {{Mes BLE Gateway Tag}} </legend>
     <div class="eqLogicThumbnailContainer">
       <?php
       foreach ($eqLogics as $eqLogic) {
@@ -65,7 +65,7 @@ $eqLogics = eqLogic::byType('dashbutton');
         if (file_exists($file)) {
             $path = $eqLogic->getConfiguration('icone');
         } else {
-            $path = 'plugins/dashbutton/doc/images/dashbutton_icon.png';
+            $path = 'plugins/blegateway/doc/images/blegateway_icon.png';
         }
         echo '<img src="'.$path.'" height="105" width="95" />';
         echo "</center>";
@@ -92,10 +92,10 @@ $eqLogics = eqLogic::byType('dashbutton');
         <form class="form-horizontal">
           <fieldset>
             <div class="form-group">
-              <label class="col-sm-3 control-label">{{Dashbutton}}</label>
+              <label class="col-sm-3 control-label">{{blegateway}}</label>
               <div class="col-sm-3">
                 <input type="text" class="eqLogicAttr form-control" data-l1key="id" style="display : none;" />
-                <input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Nom de l'équipement dashbutton}}"/>
+                <input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Nom de l'équipement blegateway}}"/>
               </div>
             </div>
             <div class="form-group">
@@ -146,7 +146,7 @@ $eqLogics = eqLogic::byType('dashbutton');
 
 
             <div class="form-group">
-              <label class="col-sm-3 control-label">{{MAC Dash Button}}</label>
+              <label class="col-sm-3 control-label">{{MAC BLE Gateway Tag}}</label>
               <div class="col-sm-3">
                 <input type="text" class="eqLogicAttr configuration form-control" data-l1key="configuration" data-l2key="uid"/>
               </div>
@@ -177,14 +177,14 @@ $eqLogics = eqLogic::byType('dashbutton');
                        <label class="col-sm-3 control-label">{{Modèle}}</label>
                        <div class="col-sm-3">
                          <select id="sel_item2" class="form-control eqLogicAttr" data-l1key="configuration" data-l2key="icone" onchange="document.icon_visu.src=this.value;">
-						<option value="plugins/dashbutton/doc/images/dashbutton_icon.png">{{1-Aucun}}</option>
+						<option value="plugins/blegateway/doc/images/blegateway_icon.png">{{1-Aucun}}</option>
                                <?php
                                    $path = dirname(__FILE__) . '/../../doc/images/dashes';
                                    $files = scandir($path);
                                    foreach ($files as $imgname){
                                        if (!in_array($imgname, ['.','..'])){
                                            $brand=ucfirst(explode( '.' , $imgname)[0]);
-                                           echo '<option value="' . 'plugins/dashbutton/doc/images/dashes/' .$imgname. '">' . $brand . '</option>';
+                                           echo '<option value="' . 'plugins/blegateway/doc/images/dashes/' .$imgname. '">' . $brand . '</option>';
                                        }
                                }
                            ?>
@@ -222,5 +222,5 @@ $eqLogics = eqLogic::byType('dashbutton');
 </div>
 </div>
 
-<?php include_file('desktop', 'dashbutton', 'js', 'dashbutton'); ?>
+<?php include_file('desktop', 'blegateway', 'js', 'blegateway'); ?>
 <?php include_file('core', 'plugin.template', 'js'); ?>

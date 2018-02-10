@@ -18,14 +18,9 @@
 
 require_once dirname(__FILE__) . '/../../../core/php/core.inc.php';
 
-function dashbutton_install() {
-    $sensor_path = dirname(__FILE__) . '/../node';
-		exec('cd ' . $sensor_path . '; rm -rf node_modules');
+function blegateway_install() {
 }
 
-function dashbutton_update() {
-    $sensor_path = dirname(__FILE__) . '/../node';
-		exec('cd ' . $sensor_path . '; rm -rf node_modules');
+function blegateway_update() {
 }
 
-?>

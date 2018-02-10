@@ -1,7 +1,7 @@
 [panel,primary]
 .Stützt sich das Plugin auf APIs Dritter ?
 --
-Non, le plugin récupère la trame émise sur le réseau wifi par les dash buttons sans accès éxtérieur
+Non, le plugin récupère la trame émise sur le réseau wifi par les BLE Gateway Tags sans accès éxtérieur
 --
 
 [panel,primary]

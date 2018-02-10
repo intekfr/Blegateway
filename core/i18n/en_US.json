@@ -1,19 +1,19 @@
 {
-    "plugins\/dashbutton\/desktop\/php\/dashbutton.php": {
+    "plugins\/blegateway\/desktop\/php\/blegateway.php": {
         "Ajouter un équipement": "Add an equipment",
         "Rechercher": "Search",
         "Gestion": "Management",
         "Configuration": "Setting",
         "Santé": "Health",
         "Icônes": "Icons",
-        "Mes Dash Button": "My Dash Button",
+        "Mes BLE Gateway Tag": "My BLE Gateway Tag",
         "Sauvegarder": "Save",
         "Supprimer": "Delete",
         "Configuration avancée": "Adanced Settings",
         "Equipement": "Equipment",
         "Commandes": "Commands",
-        "Dashbutton": "Dashbutton",
-        "Nom de l'équipement dashbutton": "Name of the equipment dashbutton",
+        "blegateway": "blegateway",
+        "Nom de l'équipement blegateway": "Name of the equipment blegateway",
         "Objet parent": "Parent object",
         "Aucun": "Aucun",
         "Catégorie": "Category",
@@ -21,7 +21,7 @@
         "Visible": "Visible",
         "Délai max entre 2 messages": "Max delay between 2 messages",
         "Commentaire": "Commentaire",
-        "MAC Dash Button": "Dashbutton MAC",
+        "MAC BLE Gateway Tag": "blegateway MAC",
         "Dernière Activité": "Last Activity",
         "Icône": "Icône",
         "Modèle": "Modèle",
@@ -29,20 +29,20 @@
         "Commande": "Commande",
         "Paramètres": "Paramètres"
     },
-    "plugins\/dashbutton\/desktop\/js\/dashbutton.js": {
-        "Santé Dashbutton": "Santé Dashbutton",
+    "plugins\/blegateway\/desktop\/js\/blegateway.js": {
+        "Santé blegateway": "Santé blegateway",
         "Gestion Icônes": "Gestion Icônes",
         "Afficher": "Afficher",
         "Tester": "Tester"
     },
-    "plugins\/dashbutton\/desktop\/modal\/health.php": {
+    "plugins\/blegateway\/desktop\/modal\/health.php": {
         "Image": "Image",
         "Module": "Module",
         "ID": "ID",
         "MAC": "MAC",
         "Date création": "Date création"
     },
-    "plugins\/dashbutton\/desktop\/modal\/icon.php": {
+    "plugins\/blegateway\/desktop\/modal\/icon.php": {
         "Icônes locales": "Icônes locales",
         "Icônes disponibles": "Icônes disponibles",
         "Supprimer l'icône": "Supprimer l'icône",

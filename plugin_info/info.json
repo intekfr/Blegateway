@@ -1,10 +1,10 @@
 {
-	"id" : "dashbutton",
-	"name" : "Dash Button",
+	"id" : "blegateway",
+	"name" : "BLE Gagteway Tags",
 	"licence" : "AGPL",
-	"author" : "lunarok",
+	"author" : "Intek",
 	"require" : "2.4",
 	"category" : "devicecommunication",
-  "hasDependency" : 1,
+  "hasDependency" : 0,
   "hasOwnDeamon" : 0
 }
