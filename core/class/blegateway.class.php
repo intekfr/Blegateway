@@ -19,31 +19,6 @@ require_once dirname(__FILE__) . '/../../../../core/php/core.inc.php';
 
 class blegateway extends eqLogic
 {
-
-
-    public static function removeIcon($_icon)
-    {
-        $path = dirname(__FILE__) . '/../../../../' . $_icon;
-        if (file_exists($path)) {
-            unlink($path);
-        }
-        return;
-    }
-
-    public static function listIcon()
-    {
-        $path = dirname(__FILE__) . '/../../doc/images/dashes';
-        $files = scandir($path);
-        $list = array();
-        foreach ($files as $imgname) {
-            if (!in_array($imgname, ['.', '..'])) {
-                $brand = ucfirst(explode('.', $imgname)[0]);
-                $list[] = array('plugins/blegateway/doc/images/dashes/' . $imgname, $brand);
-            }
-        }
-        return $list;
-    }
-
     public function preUpdate()
     {
         if ($this->getConfiguration('uid') == '') {

@@ -18,10 +18,6 @@
     $('#md_modal').dialog({title: "{{Santé blegateway}}"});
     $('#md_modal').load('index.php?v=d&plugin=blegateway&modal=health').dialog('open');
 });
- $('#bt_icondash').on('click', function () {
-    $('#md_modal').dialog({title: "{{Gestion Icônes}}"});
-    $('#md_modal').load('index.php?v=d&plugin=blegateway&modal=icon').dialog('open');
-});
 $("#table_cmd").delegate(".listEquipementInfo", 'click', function() {
     var el = $(this);
     jeedom.cmd.getSelectModal({cmd: {type: 'info'}}, function(result) {
@@ -68,10 +64,6 @@ function addCmdToTable(_cmd) {
         tr += '</tr>';
         $('#table_cmd tbody').append(tr);
         $('#table_cmd tbody tr:last').setValues(_cmd, '.cmdAttr');
-        /*if (isset(_cmd.type)) {
-            $('#table_cmd tbody tr:last .cmdAttr[data-l1key=type]').value(init(_cmd.type));
-        }
-        jeedom.cmd.changeType($('#table_cmd tbody tr:last'), init(_cmd.subType));*/
     }
 
 }

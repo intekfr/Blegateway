@@ -35,12 +35,7 @@ $eqLogics = blegateway::byType('blegateway');
 	 <?php
 foreach ($eqLogics as $eqLogic) {
 	$opacity = ($eqLogic->getIsEnable()) ? '' : jeedom::getConfiguration('eqLogic:style:noactive');
-    $file = $eqLogic->getConfiguration('icone');
-    if (file_exists($file)) {
-		$path = $eqLogic->getConfiguration('icone');
-	} else {
-		$path = 'plugins/blegateway/doc/images/blegateway_icon.png';
-    }
+ 	$path = 'plugins/blegateway/doc/images/blegateway_icon.png';
     $img = '<img src="'.$path.'" height="65" width="55" />';
 	echo '<tr><td>' . $img . '</td><td><a href="' . $eqLogic->getLinkToConfiguration() . '" style="text-decoration: none;">' . $eqLogic->getHumanName(true) . '</a></td>';
 	echo '<td><span class="label label-info" style="font-size : 1em;">' . $eqLogic->getId() . '</span></td>';
